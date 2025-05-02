@@ -1,0 +1,29 @@
+<div id = "panelprincipal" class = "panel">
+    <nav class="navbar fixed-top barra back navbar-expand-lg navbar-dark fixed-top"><!--otro tipo de menú-->
+        <div class="container-fluid">
+            <img id="logo" src="imagenes/logo_utp.png" height="55" width="55" alt="Brand">
+            <a id="nombre" class="navbar-brand" href="index.php">Taller 4_Datos PHP_Forms sencillos/Salida de Datos</a>
+            <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
+             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive"> <!-- Ctrl Shift P navbar collapse y edite-->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="index.php">Programa 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="T4P2.php">Programa 2</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="T4P3.php">Programa 3</a>
+                    </li>
+                </ul>
+            </div>  <!--termina navbar collapse-->
+
+        </div>
+    </nav> <!--Termina Menú-->
+
+</div>
