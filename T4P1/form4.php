@@ -4,6 +4,9 @@
     <title>Programa 4 - Trigonometría</title>
 </head>
 <body>
+
+<?php include("../base/menu.php"); ?>
+
     <h2>Cálculo trigonométrico de un ángulo</h2>
     <form method="post">
         <label for="angulo">Ingrese un ángulo en grados:</label>
@@ -41,12 +44,15 @@
         }
 
         echo "<h3>Resultados:</h3>";
-        echo "Ángulo ingresado: $grados<br>";
+        echo "Ángulo ingresado: $grados&nbsp;&deg;<br>";
         echo "Seno: " . round($seno, 4) . "<br>";
         echo "Coseno: " . round($coseno, 4) . "<br>";
         echo "Tangente: " . (abs($coseno) < 1e-10 ? "Indefinida" : round($tangente, 4)) . "<br>";
         echo "Ubicación: $ubicacion<br>";
     }
     ?>
+
+    <?php include("footer.php"); ?>
+
 </body>
 </html>
