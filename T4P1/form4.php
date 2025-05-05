@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<?php include("../base/menu.php"); ?>
+
 
     <h2>Cálculo trigonométrico de un ángulo</h2>
     <form method="post">
@@ -52,7 +52,7 @@
     }
     ?>
 
-    <?php include("footer.php"); ?>
+  
 
 </body>
 </html>
